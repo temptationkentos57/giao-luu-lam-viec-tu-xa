@@ -1,0 +1,12 @@
+{
+  "name": "giao-luu-lam-viec-tu-xa",
+  "version": "1.0.0",
+  "description": "Ứng dụng để làm việc từ xa",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tên Bạn",
+  "license": "MIT"
+}
