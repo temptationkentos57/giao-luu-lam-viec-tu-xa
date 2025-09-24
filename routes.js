@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
 
-// Định nghĩa các route tại đây
+// Define routes here
 router.get('/api', (req, res) => {
-  res.send('API đang hoạt động!');
+  res.send('API is running!');
 });
 
 module.exports = router;
