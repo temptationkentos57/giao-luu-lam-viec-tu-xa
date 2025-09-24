@@ -6,7 +6,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Trang chính
 app.get('/', (req, res) => {
-  res.json({ message: 'Chào mừng bạn đến với Giao Lưu Làm Việc Từ Xa' });
+  res.json({ message: 'Chào mừng bạn đến với Giao Lưu Làm Việc Từ Xa! Chúng tôi rất vui được đón chào bạn.' });
 });
 
 module.exports = app;
